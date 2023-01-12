@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    .logo {
+      width: auto;
+      height: 10rem;
+    }
+    .nav_icon {
+      position: absolute;
+      display: block;
+      right: 2rem;
+    }
+    .nav_menu {
+      display: block;
+      width: 100%;
+      left: 0;
+      position: absolute;
+      height: calc(100vh - var(--nav));
+      top: var(--nav);
+      transition: var(--transition);
+      background: #020319;
+      transform: translateX(100%);
+    }
+    .nav_menu.active {
+      transform: translateX(0%);
+      transition: transform 0.5s ease;
+    }
+    .nav_list {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 3rem 0;
+      transform: translateX(100%);
+    }
+    .profile_container {
+      grid-template-columns: 1fr;
+    }
+    #resume {
+      height: 35vh;
+    }
+    #particles-js {
+      height: 35vh;
+    }
+    .downloads_btn {
+      left: 34.4%;
+      margin-top: 3rem;
+    }
+    .m_skills ul {
+      display: block;
+    }
+    #container1{
+      width: 85%;
+    }
+    #container{
+      width: 85%;
+      padding: 2rem;
+    }
+    #home, #contact, #blog, #project {
+      height: 35vh;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      grid-template-columns: 1fr;
+      padding: 3rem;
+      gap: 7rem;
+    }
+    .profile {
+      margin-bottom: 0;
+    }
+    .group-3 {
+      flex-direction: column;
+    }
+    .profile_container {
+      flex-direction: column;
+    }
+    hr {
+      margin: 0 auto;
+    }
+    .social_link {
+      margin-top: 8rem;
+      gap: 0;
+    }
+    .sm{
+      font-size: 1.6rem;
+    }
+    .social_items3{
+      padding-left: 2rem;
+    }
+    .contact_info{
+      display: block;
+      padding: 1.5rem 1.5rem 2rem 1.5rem;
+    }
+    #container_c{
+      padding: 1.5rem;
+    }
+    .box_2{
+      margin-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 420px){
+    .profile_name_firstName {
+      font-size: 2.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 380px){
+    .profile_name_firstName {
+      font-size: 2.2rem;
+    }
+  }
+  @media only screen and (max-width: 325px){
+    .profile_name_firstName {
+      font-size: 2rem;
+    }
+    .downloads_btn {
+      left: 24.4%;
+    }
+  }

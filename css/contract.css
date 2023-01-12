@@ -1,0 +1,95 @@
+#contact{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#contact h2 {
+    font-size: 5rem;
+    color: #fff;
+  }
+#particles-js{
+    position: absolute;
+    background-image: linear-gradient(45deg, rgb(144, 100, 159) 0%, rgb(144, 100, 159) 24%,rgb(112, 112, 163) 24%, rgb(112, 112, 163) 28%,rgb(79, 124, 166) 28%, rgb(79, 124, 166) 40%,rgb(47, 136, 170) 40%, rgb(47, 136, 170) 84%,rgb(14, 148, 173) 84%, rgb(14, 148, 173) 100%),linear-gradient(0deg, rgb(144, 100, 159) 0%, rgb(144, 100, 159) 24%,rgb(112, 112, 163) 24%, rgb(112, 112, 163) 28%,rgb(79, 124, 166) 28%, rgb(79, 124, 166) 40%,rgb(47, 136, 170) 40%, rgb(47, 136, 170) 84%,rgb(14, 148, 173) 84%, rgb(14, 148, 173) 100%),linear-gradient(135deg, rgb(144, 100, 159) 0%, rgb(144, 100, 159) 24%,rgb(112, 112, 163) 24%, rgb(112, 112, 163) 28%,rgb(79, 124, 166) 28%, rgb(79, 124, 166) 40%,rgb(47, 136, 170) 40%, rgb(47, 136, 170) 84%,rgb(14, 148, 173) 84%, rgb(14, 148, 173) 100%),linear-gradient(90deg, rgb(79, 35, 157),rgb(43, 171, 222)); background-blend-mode:overlay,overlay,overlay,normal;
+    width: 100%;
+    z-index: -999999;
+    height: 50vh;
+  }
+  #contact_info{
+    background: #CAE7E5;
+  }
+  #container_c{
+    max-width: 1000px;
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    padding: 3rem;
+  }
+  .contact_info{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 3rem;
+  }
+  .box_1{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .box_1 i{
+    color: #380B88;
+    font-size: 2.3rem;
+    cursor: pointer;
+  }
+  .box_1 h4{
+    color: #111;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .box_1 p{
+    color: var(--text-color);
+    font-size: 1.3rem;
+  }
+  .phone{
+    margin: 1.5rem 0;
+  }
+  .heading{
+    font-size: 2.2rem;
+    color: #380B88;
+    font-weight: 500;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+  .form input, textarea{
+    margin: .5rem 0;
+    padding: .8rem;
+    border: none;
+    background: #F2F1F9;
+    outline: none;
+    color: black;
+    font-size: 1.3rem;
+  }
+  .form {
+    margin: .5rem 0;
+  }
+  .form textarea{
+    height: 8.7rem;
+  }
+  .c_btn{
+    border: none;
+    outline: none;
+    background: none;
+    border: 1.5px solid #380B88;
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #380B88;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .c_btn:hover{
+    background: #380B88;
+    color: #fff;
+  }
